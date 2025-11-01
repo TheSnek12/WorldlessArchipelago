@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>WorldlessArchipelago</AssemblyName>
+    <Product>Worldless Archipelago Randomizer</Product>
+    <Version>1.0.0</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+    <RestoreAdditionalProjectSources>
+      https://api.nuget.org/v3/index.json;
+      https://nuget.bepinex.dev/v3/index.json;
+      https://nuget.samboy.dev/v3/index.json
+    </RestoreAdditionalProjectSources>
+    <RootNamespace>WorldlessArchipelago</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.IL2CPP" Version="6.0.0-pre.1" />
+    <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.*" IncludeAssets="compile" />
+    <PackageReference Include="BepInEx.PluginInfoProps" Version="2.*" />
+
+    <Reference Include="UniverseLib.BIE.IL2CPP.Interop">
+      <HintPath>.\lib\interop\UniverseLib.BIE.IL2CPP.Interop.dll</HintPath>
+    </Reference>
+
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>.\lib\interop\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+
+    <Reference Include="UnityEngine.UI">
+      <HintPath>.\lib\interop\UnityEngine.UI.dll</HintPath>
+    </Reference>
+
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>.\lib\interop\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>.\lib\interop\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+
+    <Reference Include="Noname">
+      <HintPath>.\lib\interop\Noname.dll</HintPath>
+    </Reference>
+
+    <Reference Include="Noname.Worldless">
+      <HintPath>.\lib\interop\Noname.Worldless.dll</HintPath>
+    </Reference>
+
+    <Reference Include="Noname.Worldless.Navigation">
+      <HintPath>.\lib\interop\Noname.Worldless.Navigation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
