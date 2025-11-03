@@ -13,9 +13,12 @@
           "BepInEx.Unity.IL2CPP": "6.0.0-be.738",
           "Il2Cppmscorlib": "4.0.0.0",
           "Noname": "0.0.0.0",
+          "Noname.Worldless.Combat": "0.0.0.0",
           "Noname.Worldless": "0.0.0.0",
           "Noname.Worldless.Navigation": "0.0.0.0",
+          "Noname.Worldless.NavigationCombat": "0.0.0.0",
           "UnityEngine.CoreModule": "0.0.0.0",
+          "UnityEngine.Physics2DModule": "0.0.0.0",
           "UnityEngine.TextRenderingModule": "0.0.0.0",
           "UnityEngine.UI": "1.0.0.0",
           "UniverseLib.BIE.IL2CPP.Interop": "1.5.10.0"
@@ -890,6 +893,14 @@
           }
         }
       },
+      "Noname.Worldless.Combat/0.0.0.0": {
+        "runtime": {
+          "Noname.Worldless.Combat.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
       "Noname.Worldless/0.0.0.0": {
         "runtime": {
           "Noname.Worldless.dll": {
@@ -906,9 +917,25 @@
           }
         }
       },
+      "Noname.Worldless.NavigationCombat/0.0.0.0": {
+        "runtime": {
+          "Noname.Worldless.NavigationCombat.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
       "UnityEngine.CoreModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.CoreModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "UnityEngine.Physics2DModule/0.0.0.0": {
+        "runtime": {
+          "UnityEngine.Physics2DModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -989,14 +1016,6 @@
       "UnityEngine.PhysicsModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.PhysicsModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "UnityEngine.Physics2DModule/0.0.0.0": {
-        "runtime": {
-          "UnityEngine.Physics2DModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -1149,6 +1168,14 @@
       "I2/0.0.0.0": {
         "runtime": {
           "I2.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Noname.NodesPattern/0.0.0.0": {
+        "runtime": {
+          "Noname.NodesPattern.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -1966,6 +1993,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Noname.Worldless.Combat/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Noname.Worldless/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
@@ -1976,7 +2008,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Noname.Worldless.NavigationCombat/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "UnityEngine.CoreModule/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnityEngine.Physics2DModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -2027,11 +2069,6 @@
       "sha512": ""
     },
     "UnityEngine.PhysicsModule/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UnityEngine.Physics2DModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -2127,6 +2164,11 @@
       "sha512": ""
     },
     "I2/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Noname.NodesPattern/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

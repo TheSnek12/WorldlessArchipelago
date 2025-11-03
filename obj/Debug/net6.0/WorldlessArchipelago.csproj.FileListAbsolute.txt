@@ -64,3 +64,7 @@
 /home/Snek/worldless/WorldlessArchipelago/obj/Debug/net6.0/refint/WorldlessArchipelago.dll
 /home/Snek/worldless/WorldlessArchipelago/obj/Debug/net6.0/WorldlessArchipelago.pdb
 /home/Snek/worldless/WorldlessArchipelago/obj/Debug/net6.0/ref/WorldlessArchipelago.dll
+/home/Snek/worldless/WorldlessArchipelago/obj/Debug/net6.0/WorldlessArchipelago.sourcelink.json
+/home/Snek/worldless/WorldlessArchipelago/bin/Debug/net6.0/Noname.Worldless.NavigationCombat.dll
+/home/Snek/worldless/WorldlessArchipelago/bin/Debug/net6.0/Noname.Worldless.Combat.dll
+/home/Snek/worldless/WorldlessArchipelago/bin/Debug/net6.0/Noname.NodesPattern.dll

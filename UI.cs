@@ -22,7 +22,7 @@ public class Ui : PanelBase
       
     }
 
-    internal static string GUID = "moff.cheatwindow";
+    internal static string GUID = "moff.archipelago";
     internal static void UpdateUI()
     {
         

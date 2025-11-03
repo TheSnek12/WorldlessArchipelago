@@ -36,6 +36,10 @@
       <HintPath>.\lib\interop\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
 
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>.\lib\interop\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+
     <Reference Include="Il2Cppmscorlib">
       <HintPath>.\lib\interop\Il2Cppmscorlib.dll</HintPath>
     </Reference>
@@ -51,5 +55,14 @@
     <Reference Include="Noname.Worldless.Navigation">
       <HintPath>.\lib\interop\Noname.Worldless.Navigation.dll</HintPath>
     </Reference>
+
+    <Reference Include="Noname.Worldless.NavigationCombat">
+      <HintPath>.\lib\interop\Noname.Worldless.NavigationCombat.dll</HintPath>
+    </Reference>
+  
+    <Reference Include="Noname.Worldless.Combat">
+      <HintPath>.\lib\interop\Noname.Worldless.Combat.dll</HintPath>
+    </Reference>
+
   </ItemGroup>
 </Project>

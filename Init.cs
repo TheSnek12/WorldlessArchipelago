@@ -27,6 +27,7 @@ public class Plugin : BasePlugin
     void CreateUI()
     {
         UIManager.InitUI();
+        ItemPatcher.Patch();
         Behaviour.Setup();
     }
 

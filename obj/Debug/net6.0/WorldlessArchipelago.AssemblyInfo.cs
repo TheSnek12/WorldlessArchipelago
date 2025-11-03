@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorldlessArchipelago")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1659da85d3c96d28546725a58d979fb550499643")]
 [assembly: System.Reflection.AssemblyProductAttribute("Worldless Archipelago Randomizer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WorldlessArchipelago")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
